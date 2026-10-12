@@ -17,7 +17,7 @@ Metal 4) is an experimental alternative on macOS 26+ (see “Vulkan driver”).
 
 ## Requirements
 
-- Apple Silicon Mac, macOS 15+, ~150 GB of free space (the disk image is sparse).
+- Apple Silicon Mac, macOS 26+, ~150 GB of free space (the disk image is sparse).
 - Xcode 26+ (full installation: its `actool` builds the app icon from an Icon Composer document), Homebrew, rustup.
 - KosmicKrisp (optional, alternative Vulkan driver): built only on macOS 26+; `host/kosmickrisp/build.sh`
   installs its Homebrew dependencies (`llvm spirv-llvm-translator spirv-tools vulkan-loader glslang`).
